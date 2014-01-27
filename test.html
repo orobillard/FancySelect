@@ -1,0 +1,17 @@
+<!DOCTYPE html><head>
+    <meta charset="utf-8">    <link href="select.css" rel="stylesheet"> 
+    
+    <script src="jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="SpecialSelectDropDown.js" ></script></head>
+<body>
+    <label for="inputSelect1">This is a select box: </label>
+    <input id="inputSelect1" />
+
+    <script>
+        var input1 = $('#inputSelect1');
+        input1.specialSelectDropDown();
+        input1.specialSelectDropDown("addItem", "input select 1", 1);
+        input1.specialSelectDropDown("addItem", "input select 2", 2);
+        input1.specialSelectDropDown("addItem", "input select 3", 3);
+    </script>
+</body>
